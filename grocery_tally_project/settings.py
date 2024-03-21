@@ -80,11 +80,11 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         #'ENGINE': 'django.contrib.gis.db.backends.postgis',
-        'NAME': 'postgres',
+        'NAME': 'railway',
         'USER': 'postgres',
-        'PASSWORD': '2sixMarch93',
-        'HOST': '127.0.0.1',
-        'PORT': '5434',
+        'PASSWORD': 'ZmyBQIvwJAXweRFSyVETLakPgGMqRLXv',
+        'HOST': 'roundhouse.proxy.rlwy.net',
+        'PORT': '13566',
     }
 }
 GDAL_LIBRARY_PATH = r'C:\OSGeo4W\bin\gdal307'
